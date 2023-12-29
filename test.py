@@ -130,7 +130,7 @@ def cal_score():
         score["ts_gt"].extend([x * scale / 10. for x in res["ts_gt"]])
         score["ts_pred"].extend([x * scale / 10. for x in res["ts_pred"]])
         auc_R, auc_t = mAP(score["Rs_pred"], score["ts_pred"], score["Rs_gt"], score["ts_gt"])
-    print("mAP_R (5/10/20 degree): %.3f, %.3f, %.3f | AUC_t (1/2/5 cm): %.3f, %.3f, %.3f |" % (*auc_R[:3],  *auc_t[:3]))
+    print("mAP_R (5/10/20 degree): %.3f, %.3f, %.3f | mAP_t (1/2/5 cm): %.3f, %.3f, %.3f |" % (*auc_R[:3],  *auc_t[:3]))
     print(np.mean(score["times"]))
 
 if __name__ == '__main__':
