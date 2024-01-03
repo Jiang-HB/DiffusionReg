@@ -4,6 +4,8 @@ PyTorch implementation of the paper ["SE(3) Diffusion Model-based Point Cloud Re
 
 Haobo Jiang, Mathieu Salzmann, Zheng Dang, Jin Xie, and Jian Yang.
 
+Here is the [supplementary material](https://openreview.net/attachment?id=Znpz1sv4IP&name=supplementary_material).
+
 
 ## Introduction
 
