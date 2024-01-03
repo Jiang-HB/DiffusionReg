@@ -1,6 +1,6 @@
 # SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object Pose Estimation (NeurIPS2023)
 
-PyTorch implementation of the paper ["SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object Pose Estimation"](https://arxiv.org/pdf/2310.17359.pdf).
+PyTorch implementation of the paper ["SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object Pose Estimation"](https://openreview.net/pdf?id=Znpz1sv4IP).
 
 Haobo Jiang, Mathieu Salzmann, Zheng Dang, Jin Xie, and Jian Yang.
 
