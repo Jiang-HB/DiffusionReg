@@ -20,7 +20,7 @@ Furthermore, we show that our denoising network can be constructed with a surrog
 
 ### TUD-L
 
-The raw data of TUD-L can be downloaded from BOP datasets: [training data](https://bop.felk.cvut.cz/media/data/bop_datasets/tudl_train_real.zip), [testing data](https://bop.felk.cvut.cz/media/data/bop_datasets/tudl_test_bop19.zip) and [object models](https://bop.felk.cvut.cz/media/data/bop_datasets/tudl_models.zip).
+The raw data of TUD-L can be downloaded from BOP datasets: [training data](https://huggingface.co/datasets/bop-benchmark/datasets/resolve/main/tudl/tudl_train_real.zip), [testing data](https://huggingface.co/datasets/bop-benchmark/datasets/resolve/main/tudl/tudl_test_bop19.zip) and [object models](https://huggingface.co/datasets/bop-benchmark/datasets/resolve/main/tudl/tudl_models.zip).
 Also, please download pre-processed files: [train_info.pth](https://drive.google.com/file/d/1p07nibykEeVPrXzQf69pWPIAE8GnjDXC/view?usp=sharing), [test_info.pth](https://drive.google.com/file/d/16CeFZ9hfUnh1eoisx7cPzWftEfZCfO9w/view?usp=sharing), and [model_info.pth](https://drive.google.com/file/d/1yFu56Wmr-DFiWmWfYT66SaThmRnaFcAi/view?usp=sharing) 
 Please put them into the directory: `./datasets/tudl/` as below:
 ```
